@@ -1,0 +1,16 @@
+{
+  "name": "browser quick note",
+  "version": "1.0.0",
+  "description": "this is a plugin for a user to quickly jot or take a note without having to leave the browser",
+  "manifest_version": 3,
+  "author": "David Bodunrin",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "browser quick note"
+  },
+  "icons": { "16": "icon16.png", "48": "icon48.png", "128": "icon128.png" },
+  "background": {
+    "service_worker": "app.js"
+  },
+  "permissions": ["storage"]
+}
